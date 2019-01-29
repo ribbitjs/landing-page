@@ -1,0 +1,112 @@
+#container {
+  height: 100vh;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+}
+
+.img-container {
+  width: 100%;
+  height: fit-content;
+  text-align: center;
+  position: relative;
+  width: 100%;
+}
+
+.form-container {
+  width: 100%;
+  height: fit-content;
+  text-align: center;
+  position: relative;
+}
+
+.text-container {
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  color: #2f2f2f;
+}
+
+.logo {
+  margin: 0 auto;
+  position: relative;
+  max-width: 20vw;
+}
+
+.logo span {
+  font-family: "Roboto Mono", monospace;
+  font-size: 14px;
+  background-color: #00fb99;
+  padding: 3px 8px 4px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#emailForm input {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  height: 50px;
+  width: 300px;
+  margin: 30px;
+  border: 2px solid #00fb99;
+  color: #2f2f2f;
+  font-size: 20px;
+  padding: 5px;
+}
+
+#mc-embedded-subscribe {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 60px;
+  margin: 20px 0 20px 0;
+  box-sizing: border-box;
+  background-color: #00fb99;
+  border: 2px solid #00fb99;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/*mailchimp form*/
+.required {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  height: 50px;
+  width: 300px;
+  margin: 30px;
+  border: 2px solid #00fb99;
+  color: #2f2f2f;
+  font-size: 20px;
+  padding: 5px;
+}
+
+.mc-field-group {
+  margin: 0 auto;
+  text-align: center;
+}
+/*mailchimp form*/
+
+#emailForm button {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 60px;
+  margin: 20px 0 20px 0;
+  box-sizing: border-box;
+  background-color: #00fb99;
+  border: 2px solid #00fb99;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#emailForm button:hover {
+  background-color: #00fb99;
+  border: 2px solid white;
+}

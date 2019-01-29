@@ -1,0 +1,21 @@
+{
+  "name": "landing-page",
+  "version": "1.0.0",
+  "description": "Landing page for Ribbit-js",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "webpack-dev-server --hot",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/team-bimmer/landing-page.git"
+  },
+  "author": "Bimmer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/team-bimmer/landing-page/issues"
+  },
+  "homepage": "https://github.com/team-bimmer/landing-page#readme",
+  "dependencies": {}
+}
