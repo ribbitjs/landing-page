@@ -104,6 +104,8 @@
   color: white;
   font-size: 20px;
   font-weight: bold;
+  min-width: 256px;
+  outline: none;
 }
 
 #emailForm button:hover {
