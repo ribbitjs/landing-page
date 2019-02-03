@@ -31,7 +31,7 @@ function sendPost(email) {
   const postObj = {
     email
   };
-  fetch("http://localhost:3000/signup", {
+  fetch("https://ribbit-landing-page.herokuapp.com/signup", {
     method: "POST",
     mode: "cors",
     credentials: "same-origin",

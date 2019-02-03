@@ -1,6 +1,6 @@
 const express = require("express");
 const app = new express();
-const port = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3000;
 const path = require("path");
 const bodyParser = require("body-parser");
 
@@ -42,6 +42,6 @@ app.post("/signup", (req, res) => {
     });
 });
 
-app.listen(port, () => {
-  console.log(`listening on port ${port}`);
+app.listen(PORT, () => {
+  console.log(`listening on port ${PORT}`);
 });
