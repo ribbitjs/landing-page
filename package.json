@@ -4,7 +4,7 @@
   "description": "Landing page for Ribbit-js",
   "main": "index.js",
   "scripts": {
-    "start:dev": "webpack-dev-server --hot",
+    "start": "node server/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,5 +17,11 @@
     "url": "https://github.com/team-bimmer/landing-page/issues"
   },
   "homepage": "https://github.com/team-bimmer/landing-page#readme",
-  "dependencies": {}
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mailchimp-api-v3": "^1.12.1",
+    "nodemon": "^1.18.9",
+    "requirejs": "^2.3.6"
+  }
 }
